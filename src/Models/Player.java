@@ -64,6 +64,7 @@ public class Player {
         Cell chosenCell = board.getBoard().get(row).get(column) ;
         chosenCell.setPlayer(this);
         chosenCell.setCellState(CellState.OCCUPIED);
+        System.out.println("Final Project");
 
     }
 }
