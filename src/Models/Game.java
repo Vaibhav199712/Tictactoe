@@ -27,7 +27,7 @@ public class Game {
         this.winningStrategies = builder.winningStrategies ;
         this.board = new Board(builder.dimension);
 
-        this.gameState = GameState.In_PROGRESS;
+        this.gameState = GameState.IN_PROGRESS;
         this.winner = null ;
         this.moves = new ArrayList<>() ;
         this.currentPlayerIndex = 0 ;
@@ -92,6 +92,9 @@ public class Game {
 
     public static Builder getBuilder(){
         return new Builder() ;
+    }
+
+    public void checkForUndo() {
     }
 
     public static class Builder{

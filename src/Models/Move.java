@@ -4,6 +4,9 @@ public class Move {
     private Cell cell ;
     private Player player ;
 
+    public Move(Cell chosenCell, Player bot) {
+    }
+
     public Cell getCell() {
         return cell;
     }

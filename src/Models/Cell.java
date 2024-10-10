@@ -8,6 +8,10 @@ public class Cell {
     private CellState cellState ;
     private Player player ;
 
+    public Cell(int i, int j) {
+
+    }
+
     public int getRow() {
         return row;
     }

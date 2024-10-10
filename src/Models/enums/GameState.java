@@ -1,7 +1,7 @@
 package Models.enums;
 
 public enum GameState {
-    In_PROGRESS,
+    IN_PROGRESS,
     COMPLETED,
     DRAW,
     PAUSED
